@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: WgrncJ089dWvBtpEyXxaMGLCIPK/M8grroxREcwEkyvzVdM79DhQsgi15qv1IaiqOkQUVce35Do3zMkb3zJJa+KjgrTmTBYW+gOxW35hDuDX++td8qS6Y79983N8BNYhaw2unUAOirYTFelkJPfjCIW+UPeKG2UPdzkQyITXGDPiNuaLyIftRYAF3QOP8/gCu8eQnABMVbo9C5sPVO0+w2VN1PzyBDXeM7lHOe7KMYsPD45KLT+1vewzTIT+uDn9Dsi9ZaMbTKkitHgRZMcuTn16+72hq75sJNdZLz9Dy1A+jGyR8KVwn2MamjtAZxy6V9lw4APcx1i5Kvww3BdEVyDjKhv77XNqRofnucgANjdhGmlKbz+zcgVM9HBfJjbHda+q3/sOFj9UcoQm3Tw03/M6f0/5ATVQDzIFveBkGQGgx915Zv0s0GejTclGYhAaIvsLcgHQ+GdmK/UGxxP/UBaebNzIrRKx5yw1Iu32PwyC5OQnhpKjlQFUBHbAgZ4XTFKsW31A6mBJBnHrl7UcuvAXKaFdPT1t0an+aDCTTXH3ffeLSsyn+W6pPwcpc5zXSwwhRwEWbsPoylJNtuZL3Q6/nr2TF7ZaruC0GS4O/JmF/8Su03FrORfho1t3QN8F3AQPF1amUrvcCCRT0QiFmPJN1gBrJaQsFYTk5oTo7tU=
+  app: warm-wave-68504
+  on:
+    repo: AdamJDuggan/travis-ci
